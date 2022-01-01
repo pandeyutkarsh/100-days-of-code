@@ -1,0 +1,35 @@
+Time Complexity :- 
+      * The time complexity is the amount of time taken by an algorithm to run, as a function of the length of the input.
+      * Time complexity measures the time taken to execute each statement of code in an algorithm. If a statement is set to execute repeatedly then the number of times that
+       statement gets executed is equal to N multiplied by the time required to run that function each time.
+       
+Types:-
+
+1. Constant time – O (1) :-  An algorithm is said to have constant time with order O (1) when it is not dependent on the input size n. Irrespective of the input size n, the runtime 
+                             will always be the same.
+
+2. Linear time – O (n) :-  An algorithm is said to have a linear time complexity when the running time increases linearly with the length of the input. When the function involves 
+                           checking all the values in input data, such function has Time complexity with this order O(n).
+
+3. Logarithmic time – O (log n) :- An algorithm is said to have a logarithmic time complexity when it reduces the size of the input data in each step. This indicates that the number 
+                                   of operations is not the same as the input size. The number of operations gets reduced as the input size increases. Algorithms with Logarithmic time 
+                                   complexity are found in binary trees or binary search functions.
+
+4. Quadratic time – O (n^2) :-  An algorithm is said to have a non – linear time complexity where the running time increases non-linearly (n^2) with the length of the input. Generally,
+                                nested loops come under this time complexity order where for one loop takes O(n) and if the function involves a loop within a loop, then it goes 
+                                for O(n)*O(n) = O(n^2) order.
+
+5. Cubic time – O (n^3) :-  In the case of cubic complexity, the processing time of an algorithm is proportional to the cube of the input elements. The complexity of the following
+                            algorithm is 10*10*10 = 1,000. The three loops have a maximum of 10. The cubic complexity for a matrix update is O(n3).
+
+
+
+Big O Notation
+How to calculate time complexity of any algorithm or program? The most common metric it’s using Big O notation.
+
+Here are some highlights about Big O Notation:
+
+Big O notation is a framework to analyze and compare algorithms.
+Amount of work the CPU has to do (time complexity) as the input size grows (towards infinity).
+Big O = Big Order function. Drop constants and lower order terms. E.g. O(3*n^2 + 10n + 10) becomes O(n^2).
+Big O notation cares about the worst-case scenario. E.g., when you want to sort and elements in the array are in reverse order for some sorting algorithms.
